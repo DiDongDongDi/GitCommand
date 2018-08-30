@@ -20,7 +20,7 @@ git log --graph --pretty=oneline --abbrev-commit //查看提交日志
 
 git reset --hard HEAD^ //回退到上一个版本 //上上个版本`HEAD^^` //上100个版本`HEAD~100`
 
-git reset --hard <commit ID> //回退到指定的提交版本
+git reset --hard <commit_ID> //回退到指定的提交版本
 
 git reset HEAD <filename> //撤销暂存区的修改
 
